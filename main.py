@@ -29,7 +29,7 @@ ACCENT_COLOR = "#a9def9"
 
 
 def get_current_time() -> datetime.datetime:
-    return datetime.datetime.now(tz=ZoneInfo("Europe/Berlin")).replace(day=1, month=7, year=2022, minute=1, hour=13)
+    return datetime.datetime.now(tz=ZoneInfo("Europe/Berlin"))
 
 
 def login_o365() -> Account:
